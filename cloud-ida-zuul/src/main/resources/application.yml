@@ -47,7 +47,7 @@ zuul:
 ##Mysql数据库配置
 datasource:
   master:
-    url: jdbc:postgresql://localhost:5432/cloud-ida
-    driverClassName: org.postgresql.Driver
-    username: postgres
-    password: 123456
+    url: jdbc:mysql://10.0.8.197:3306/cloud-ida?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+    driverClassName: com.mysql.jdbc.Driver
+    username: os_dev
+    password: wesure@oss2017

@@ -18,14 +18,17 @@
 
     <modules>
         <module>cloud-ida-eureka</module>
-        <module>cloud-ida-zuul</module>
         <module>cloud-ida-config</module>
+        <module>cloud-ida-admin-server</module>
+        <module>cloud-ida-admin</module>
+        <module>cloud-ida-service</module>
+        <module>cloud-ida-zuul</module>
         <module>cloud-ida-zipkin</module>
         <module>cloud-ida-service/cloud-ida-service-tag</module>
         <module>cloud-ida-common</module>
-        <module>cloud-ida-service</module>
-        <module>cloud-ida-admin</module>
-        <module>cloud-ida-admin-server</module>
+
+
+
     </modules>
 
     <properties>
@@ -181,9 +184,10 @@
             </dependency>
 
             <dependency>
-                <groupId>org.postgresql</groupId>
-                <artifactId>postgresql</artifactId>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
             </dependency>
+
 
             <dependency>
                 <groupId>com.alibaba</groupId>

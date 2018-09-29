@@ -1,0 +1,11 @@
+数据库之前在postgreSQL 后面迁移到mysql了
+
+rabbitmq 的安装，安装之前需要erlang
+rabbitmq 官网 http://www.rabbitmq.com/install-windows.html
+rabbitmq 资料 https://www.cnblogs.com/ericli-ericli/p/5902270.html
+
+rabbitmq提供了一个界面管理系统，但是需要命令行开启management
+./rabbitmq-plugins.bat enable rabbitmq_management
+这些命令在本机的位置  C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.8\sbin
+
+启动后 http://localhost:15672 可以界面管理rabbitmq 队列等信息
